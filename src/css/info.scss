@@ -1,0 +1,41 @@
+$darkgrey : #202325;
+
+.infoContainer{
+	height: calc(100vh - 56px - 55px - 20px);
+	width: calc(100% - 80px);
+	background-color: $darkgrey;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 55px 40px 20px 40px;
+    //font-size: 0.9em;
+    justify-content: space-between;
+}
+
+.infoTitle{
+	color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.infoIcon{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.infoOpeningContainer, .infoAddressContainer, .infoContactContainer{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	font-size: 0.9em;
+	padding-bottom: 20px;
+}
+
+.infoSubtitle{
+	margin-bottom: 10px;
+	font-weight: bold;
+}
